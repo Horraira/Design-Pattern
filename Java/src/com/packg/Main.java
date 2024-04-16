@@ -31,6 +31,10 @@ public class Main {
         // abstraction example
         var mailService = new MailService();
         mailService.sendMail();
+
+        // inheritance example
+        var textBox = new TextBox();
+        textBox.enable();
     }
     // static method that returns an object of the TaxCalculator2024 class
     public static TaxCalculator getCalculator(){
