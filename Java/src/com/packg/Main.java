@@ -21,6 +21,12 @@ public class Main {
         // interface example
         TaxCalculator calculator = getCalculator();
         calculator.calculateTax();
+
+        // encapsulation example
+        var account = new Account();
+        account.deposit(10);
+        account.withdraw(5);
+        System.out.println(account.getBalance());
     }
     // static method that returns an object of the TaxCalculator2024 class
     public static TaxCalculator getCalculator(){
