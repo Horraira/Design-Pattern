@@ -35,7 +35,16 @@ public class Main {
         // inheritance example
         var textBox = new TextBox();
         textBox.enable();
+
+        // polymorphism example
+        drawUIControl(new TextBox());
+        drawUIControl(new CheckBox());
     }
+
+    public static void drawUIControl(UIControl control){
+        control.draw();
+    }
+
     // static method that returns an object of the TaxCalculator2024 class
     public static TaxCalculator getCalculator(){
         return new TaxCalculator2024();
