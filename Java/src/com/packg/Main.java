@@ -27,6 +27,10 @@ public class Main {
         account.deposit(10);
         account.withdraw(5);
         System.out.println(account.getBalance());
+
+        // abstraction example
+        var mailService = new MailService();
+        mailService.sendMail();
     }
     // static method that returns an object of the TaxCalculator2024 class
     public static TaxCalculator getCalculator(){
