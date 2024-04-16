@@ -18,5 +18,12 @@ public class Main {
         user2.age = "52";
         System.out.println(user2.age);
 
+        // interface example
+        TaxCalculator calculator = getCalculator();
+        calculator.calculateTax();
+    }
+    // static method that returns an object of the TaxCalculator2024 class
+    public static TaxCalculator getCalculator(){
+        return new TaxCalculator2024();
     }
 }
