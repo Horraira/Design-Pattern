@@ -8,7 +8,11 @@ public class User {
 
     // Constructor is a special type of method that is used to initialize the object
     // It is called when an object of the class is created and memory is allocated for the object
-     public User(String name) {
-         this.name = name;
-     }
+    public User(String name) {
+        this.name = name;
+    }
+
+    public void sayHello(){
+        System.out.println("Hi, my name is " + name);
+    }
 }

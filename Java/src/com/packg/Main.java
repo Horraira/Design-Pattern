@@ -9,8 +9,9 @@ public class Main {
     // throws Exception is used to handle exceptions that may occur during the execution of the program
     public static void main(String[] args) throws Exception {
         // creating an object of the User class and passing the name of the user as an argument to the constructor
-         User user = new User("John");
-         System.out.println(user.name);
+        User user = new User("John");
+        System.out.println(user.name);
+        user.sayHello();
 
         // create a new object of the User class without constructor
         User user2 = new User("John");
