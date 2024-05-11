@@ -10,6 +10,7 @@ public class Main {
         var history = new History();
 
         editor.setContent("a");
+        editor.setTitle("The return of the King!");
         history.push(editor.createState());
 
         editor.setContent("sohan");
@@ -19,5 +20,6 @@ public class Main {
         editor.restore(history.pop());
 
         System.out.println(editor.getContent());
+        System.out.println(editor.getTitle());
     }
 }
