@@ -7,9 +7,17 @@ public class Main {
     public static void main(String[] args) {
         Editor editor;
         editor = new Editor();
+        var history = new History();
+
         editor.setContent("a");
-        editor.setContent("b");
+        history.push(editor.createState());
+
+        editor.setContent("sohan");
+        history.push(editor.createState());
+
         editor.setContent("c");
-//        editor.undo();
+        editor.restore(history.pop());
+
+        System.out.println(editor.getContent());
     }
 }

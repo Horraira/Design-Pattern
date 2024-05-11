@@ -2,14 +2,14 @@ package memento;
 
 public class EditorState {
     // final means that the value of the variable cannot be changed
-    private final string content;
+    private final String content;
 
     
-    public EditorState(string content) {
+    public EditorState(String content) {
         this.content = content;
     }
 
-    public string getContent() {
+    public String getContent() {
         return content;
     }
 }
