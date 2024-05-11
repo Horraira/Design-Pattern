@@ -1,0 +1,26 @@
+{
+    "administrators": [
+        {
+            "username": "admin1",
+            "password": "adminpass1"
+        },
+        {
+            "username": "admin2",
+            "password": "adminpass2"
+        }
+    ],
+    "players": [
+        {
+            "username": "player1",
+            "password": "playerpass1"
+        },
+        {
+            "username": "player2",
+            "password": "playerpass2"
+        },
+        {
+            "username": "sohan",
+            "password": "AbuHorraira@12"
+        }
+    ]
+}

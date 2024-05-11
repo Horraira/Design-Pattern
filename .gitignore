@@ -1,0 +1,12 @@
+*.toc
+*.pyc
+*.zip
+*.pkg
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.pyz
+*.spec
+*.html
+
+

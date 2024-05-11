@@ -1,0 +1,14 @@
+{
+    "administrators": [
+        {
+            "username": "admin",
+            "password": "Incognito@753"
+        }
+    ],
+    "players": [
+        {
+            "username": "player1",
+            "password": "playerpass1"
+        }
+    ]
+}
