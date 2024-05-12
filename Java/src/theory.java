@@ -1,6 +1,8 @@
 public class theory {
     
 }
+// Never Implement a design pattern without understanding the problem it solved
+// So first understand your problem carefully then choose a design pattern
 
 // coupling: the degree of interdependence between software modules; the lower the coupling, the better
 // cohesion: the degree to which the elements inside a module belong together; the higher the cohesion, the better
